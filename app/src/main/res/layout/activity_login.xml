@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="#27374D">
+
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+
+        android:textSize="18sp"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <EditText
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round_button"
+        android:padding="10dp"
+        android:hint="username"
+        android:id="@+id/username"/>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <TextView
+
+        android:layout_marginStart="10dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="18sp"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <EditText
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/round_button"
+        android:padding="10dp"
+        android:hint="password"
+        android:id="@+id/password"/>
+
+    <Button
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textColor="@color/black"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="100dp"
+        android:text="Login"
+        android:id="@+id/login"/>
+
+</LinearLayout>
